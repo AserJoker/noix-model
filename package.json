@@ -18,5 +18,13 @@
     "types/**/*"
   ],
   "main": "dist/noix-model.es.js",
-  "types": "./types/index.d.ts"
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "aserjoker",
+    "email": "aserjoker@outlook.com"
+  },
+  "keywords": [
+    "state manager"
+  ],
+  "description": "this is a lib for state manager with model"
 }
