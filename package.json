@@ -1,0 +1,22 @@
+{
+  "name": "@noix/model",
+  "private": false,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "types/**/*"
+  ],
+  "main": "dist/noix-model.es.js",
+  "types": "./types/index.d.ts"
+}
